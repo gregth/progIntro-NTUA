@@ -6,7 +6,7 @@ void swap( int *a, int *b ) {
   *b = tmp;
 }
 
-int main() {
+int main( ) {
   signed int size;
   scanf( "%i ", &size );
   int terms[ size ];
@@ -32,4 +32,5 @@ int main() {
   }
   while ( swaps > 0 );
   printf( "%d\n%d\n%d\n", total_swaps, terms[ 0 ], terms[ size - 1 ]  );
+  return 0;
 }

@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int maini( ) {
 
   int n;
   scanf( "%d", &n );
@@ -10,6 +10,7 @@ int main() {
 
   long power = 1;
   while ( power <= n ) {
-    power *= 2
+    power *= 2;
+  }
   return 0;
 }

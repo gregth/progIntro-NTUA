@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-int main() {
+int main( ) {
   int n;
   scanf( "%d", &n );
   bool is_prime[ n ];
@@ -25,4 +25,5 @@ int main() {
     }
   }
   printf( "%d\n", counter );
+  return 0;
 }
